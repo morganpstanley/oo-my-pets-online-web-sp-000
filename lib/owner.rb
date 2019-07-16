@@ -11,7 +11,6 @@ class Owner
     @species = "human"
     @cats = []
     @dogs = []
-    binding.pry
   end
 
   def say_species
