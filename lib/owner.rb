@@ -11,7 +11,7 @@ class Owner
     @species = "human"
     @cats = []
     @dogs = []
-    @@all << name
+    @@all << self
     @@count += 1
   end
 
