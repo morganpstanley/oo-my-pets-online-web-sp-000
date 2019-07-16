@@ -54,6 +54,9 @@ class Owner
     @dogs.clear
   end
 
+  def list_pets
+    "I have #{@dogs.length} dogs(s), and #{@cats.length} cat(s)."
+
   def self.all
     @@all
   end
