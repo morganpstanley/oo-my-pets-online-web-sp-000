@@ -50,6 +50,7 @@ class Owner
     @cats.each { |cat| cat.mood = "nervous"}
     @dogs.each { |dog| dog.owner = nil}
     @cats.each { |cat| cat.owner = nil}
+  end
 
   def self.all
     @@all
