@@ -12,6 +12,7 @@ class Owner
     @cats = []
     @dogs = []
     @@all << name
+    @@count += 1
   end
 
   def say_species
