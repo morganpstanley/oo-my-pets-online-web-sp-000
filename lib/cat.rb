@@ -12,4 +12,8 @@ class Cat
     owner.add_cat(self)
   end
 
+  def self.all
+    @@all
+  end
+
 end
