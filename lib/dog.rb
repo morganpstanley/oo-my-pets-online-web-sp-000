@@ -12,4 +12,8 @@ class Dog
     owner.add_dog(self)
   end
 
+  def self.all
+    @@all
+  end
+
 end
