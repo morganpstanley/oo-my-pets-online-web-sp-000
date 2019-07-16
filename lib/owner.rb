@@ -50,7 +50,8 @@ class Owner
     @cats.each { |cat| cat.mood = "nervous"}
     @dogs.each { |dog| dog.owner = nil}
     @cats.each { |cat| cat.owner = nil}
-    self.reset_all
+    @cats.clear
+    @dogs.clear
   end
 
   def self.all
