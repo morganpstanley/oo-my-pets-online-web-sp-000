@@ -28,6 +28,10 @@ class Owner
   end
 
   def buy_cat(name)
+    cat = Cat.new(name)
+    @cats << cat 
+  end
+    
 
 
   def self.all
