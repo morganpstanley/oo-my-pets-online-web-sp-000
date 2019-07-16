@@ -27,6 +27,9 @@ class Owner
     @dogs << dog
   end
 
+  def buy_cat(name)
+    
+
   def self.all
     @@all
   end
